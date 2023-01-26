@@ -10,7 +10,7 @@ public class PowerOfTwo {
         int result = 1;
         int i = 0;
         while (i <= power) {
-            System.out.println(base + "^" + i + " = " + result);
+            System.out.println(result);
             i++;
             result *= base;
         }
